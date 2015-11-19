@@ -9,11 +9,11 @@
 
 #define SIG(n) CMP(n, 0)
 
-#define IF(n, L1, L2, L3) do {                  \
+#define IF(n, l1, l2, l3) do {                  \
     switch (SIG(n)) {                           \
-    case LT: goto L1;                           \
-    case EQ: goto L2;                           \
-    case GT: goto L3;                           \
+    case LT: goto l1;                           \
+    case EQ: goto l2;                           \
+    case GT: goto l3;                           \
     }                                           \
   } while (0)
 
