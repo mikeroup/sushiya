@@ -5,7 +5,7 @@
 #define EQ 0
 #define GT 1
 
-#define CMP(a,b) (a > b) - (a < b)
+#define CMP(a,b) ((a > b) - (a < b))
 
 #define SIG(n) CMP(n, 0)
 
